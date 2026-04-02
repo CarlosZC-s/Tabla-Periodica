@@ -157,10 +157,10 @@ for (let i = 0, l = elements.length / ELEMENT_STRIDE; i < l; i += 1) {
   $element.style.gridColumn = elements[offset + ELEMENT_FIELDS.COLUMN];
   $element.style.gridRow = elements[offset + ELEMENT_FIELDS.ROW];
   $description.innerHTML = [
-    `Atomic mass: ${elements[offset + ELEMENT_FIELDS.ATOMIC_MASS]} u`,
-    `Density: ${elements[offset + ELEMENT_FIELDS.DENSITY]} g/cm3`,
-    `Melting: ${elements[offset + ELEMENT_FIELDS.MELTING_POINT]} &deg;C`,
-    `Boiling: ${elements[offset + ELEMENT_FIELDS.BOILING_POINT]} &deg;C`,
+    `Masa atómica: ${elements[offset + ELEMENT_FIELDS.ATOMIC_MASS]} u`,
+    `Densidad: ${elements[offset + ELEMENT_FIELDS.DENSITY]} g/cm3`,
+    `Punto de fusión: ${elements[offset + ELEMENT_FIELDS.MELTING_POINT]} &deg;C`,
+    `Punto de ebullición: ${elements[offset + ELEMENT_FIELDS.BOILING_POINT]} &deg;C`,
   ].join('<br>');
   $sceneContent.appendChild($el);
 }
